@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>self-introduction</title>
+    <link rel="stylesheet" href="self-introduction.css">
+<!-- 　  レスポンシブデザインに対応する為の属性です -->
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"> -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Sample</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- jQuery読み込み -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!-- Progatのリンク先はエラーが起きる↓ -->
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- hover用にとってきたProgateのjQueryです↓ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+       $(function(){
+  $('#lessons').hover(
+    function(){
+      $('.txt-contents').fadeIn();
+    },
+    function(){
+      $('.txt-contents').fadeOut();
+    });
+    });
+  </script>
+     <!-- jQueryです↓ -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
+　    <!-- ここまで -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-right">
+          <a href="#" class="login">ログイン</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+            　      <div class="slider">
+                    <img src="img/IMG_0148.jpg" width="100" height="500" alt=""  >
+                    <img src="img/IMG_0402.jpg" width="100%" height="500" alt="">
+                    <img src="img/IMG_1274.jpg" width="100%" height="500" alt="">
+                    </div>
+        <h1>HEllO WORLD</h1>
+        <h1>HELLO WORLD HELLO WORLD</h1>
+        <p>ようこそ。色んなことに興味があります。</p>
+        <p>＃沖縄　＃自転車　＃ボランティア　＃マラソン</p>
+        <div class="btn-wrapper">
+          <a href="https://www.greenwood.or.jp/workcamp/page15akki.htm" class="btn signup">学生時代の活動はこちら</a>
+          <p>SNSの友達申請もお願いします！</p>
+          <a href="https://www.facebook.com/" class="btn facebook"><span class="fab fa-facebook"></span>Facebookで登録</a>
+          <a href="https://twitter.com/" class="btn twitter"><span class="fab fa-twitter"></span>Twitterで登録</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Self introductions!</h2>
+        </div>
+        <div class="lessons" id="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+                    <img  class="icon1"  src="img/IMG_0081.jpg" alt="写真">
+                    <!-- イメージの中に　クラスを指定してあげればCSSで動作する -->
+              <p></p>
+            </div>
+            <p class="txt-contents">クロスバイクで時々ツーリングします。今まで行ったところは琵琶湖や谷瀬の吊り橋などです。友人や父親と行くことが多いです。宿泊はだいたいユースホステルです。旅先での出会いや風の心地よさが好きです。ですが実はまだ沖縄ではツーリングしたことがないのでいずれ！</p>
+          </div>
+          <div class="lesson" >
+            <div class="lesson-icon">
+                    <img class="icon1"   src="img/IMG_0125.jpg" alt="写真">
+              <p></p>
+            </div>
+            <p class="txt-contents">新卒で東京の医療機器メーカに就職しました。最初の赴任先で沖縄にくることになり、そこから3年ほど住んでいます。ですが、社会人3年目にして色々考えた結果、新しくプログラミンを学びたいと思うようになりました。人生１００年時代色んなことをやった方が自分は楽しいかなと思ったのです。</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+                    <img  class="icon1" src="img/S__13959172.jpg" alt="写真">
+              <p></p>
+            </div> 
+            <p class="txt-contents">沖縄にきてから会社行事でマラソン大会にでるようになりました。NAHAマラソン３回　おきなわマラソン２回　古宇利島マラソン２回　と割と走っているかなと思います。一応全部完走しています！</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+                    <img  class="icon1" src="img/IMG_0808.jpg" alt="写真">
+              <p></p>
+            </div>
+            <p class="txt-contents">大学時代は授業はあまり真面目に受けていませんでしたが、その代わり自然体験教育の活動や海外でボランティア活動をしていました。今思うと大学時代からプログラミングを勉強しておけばよ良かったかななんて思ったりします。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+    </div>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
